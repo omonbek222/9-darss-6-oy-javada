@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 
 const LoginForm = () => {
-  // State'lar
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  // Email va parolni tekshirish
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Formani yuborishdan oldin sahifa qayta yuklanishining oldini oladi
 
-    // Email va parolni tekshirish
+  const handleSubmit = (e) => {
+    e.preventDefault(); 
+
+
     if (email === 'test@example.com' && password === 'password123') {
       alert('Muvaffaqiyatli kirildi!');
       setError('');
