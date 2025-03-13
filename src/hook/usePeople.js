@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const usePeople = () => {
   const [people, setPeople] = useState([
-    { id: 1, name: "karimjanov", surname: "omonbe", age: 25 },
+    { id: 1, name: "karimjanov", surname: "omonbek", age: 25 },
     { id: 2, name: "karimjanov", surname: "omonbek", age: 22 },
   ]);
 

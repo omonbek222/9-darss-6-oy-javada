@@ -1,5 +1,5 @@
 import React from "react";
-import People from "./Components/People"; // People komponentini chaqiramiz
+import People from "./Components/People"; 
 
 const App = () => {
   return (
